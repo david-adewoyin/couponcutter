@@ -1,0 +1,104 @@
+{
+  "coupons": [
+    {
+      "coupon_id": "123asdf",
+      "store": {
+        "store_id": "123asdf",
+        "store_name": "rive  global store"
+      },
+      "offer": 100.0,
+      "text_only": true,
+      "store_image": "logo.png",
+      "item_url": "https://google.com",
+      "discount_type": "voucher",
+      "store_name": "rive  global store",
+      "desc": "Get 20% off when you buy 3000 or more",
+
+      "currency": "ngn",
+      "expiring_date": "2015-10-12T07:20:50.52Z",
+      "tags": ["food", "restaurant", "manga"]
+    },
+    {
+      "coupon_id": "123asdf",
+      "store": {
+        "store_id": "123asdf",
+        "store_name": "rive store"
+      },
+      "offer": 100.0,
+      "discount_type": "percentage",
+      "store_name": "rive store",
+      "desc": "Get 20% off when you buy 3000 or more",
+      "currency": "eur",
+
+      "text_only": true,
+      "text_coupon_code": "asdfe23535",
+      "item_url": "https://google.com",
+      "expiring_date": "2015-10-12T07:20:50.52Z",
+      "tags": ["food", "restaurant", "manga"]
+    },
+    {
+      "coupon_id": "123asdf",
+      "store": {
+        "store_id": "123asdf",
+        "store_name": "rive store"
+      },
+      "offer": 100.0,
+      "discount_type": "voucher",
+      "store_name": "rive store",
+      "store_image": "logo.png",
+      "desc": "Get 20% off when you buy 3000 or more",
+      "currency": "jpy",
+      "expiring_date": "2015-10-12T07:20:50.52Z",
+      "tags": ["food", "restaurant", "manga"]
+    },
+    {
+      "coupon_id": "123asdf",
+      "store": {
+        "store_id": "123asdf",
+        "store_image": "logo.png",
+        "store_name": "rive store"
+      },
+      "offer": 100.0,
+      "discount_type": "percentage",
+      "store_name": "rive store",
+      "text_only": false,
+
+      "desc": "Get 20% off when you buy 3000 or more",
+      "currency": "usd",
+      "expiring_date": "2015-10-12T07:20:50.52Z",
+      "tags": ["food", "restaurant", "manga"]
+    },
+    {
+      "coupon_id": "123asdf",
+      "store": {
+        "store_id": "123asdf",
+        "store_name": "rive store"
+      },
+      "offer": 100.0,
+      "discount_type": "percentage",
+      "store_name": "rive store",
+      "desc": "Get 20% off when you buy 3000 or more",
+      "currency": "usd",
+      "text_only": false,
+      "expiring_date": "2015-10-12T07:20:50.52Z",
+      "tags": ["food", "restaurant", "manga"]
+    },
+    {
+      "coupon_id": "123asdf",
+      "store": {
+        "store_id": "123asdf",
+        "store_name": "rive store"
+      },
+      "offer": 100.0,
+      "discount_type": "percentage",
+      "store_name": "rive store",
+      "text_only": true,
+      "item_url": "https://google.com",
+      "text_coupon_code": "asdfe23535",
+      "desc": "Get 20% off when you buy 3000 or more",
+      "currency": "usd",
+      "expiring_date": "2015-10-12T07:20:50.52Z",
+      "tags": ["food", "restaurant", "manga"]
+    }
+  ]
+}

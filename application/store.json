@@ -1,0 +1,124 @@
+{
+  "stores": [
+    {
+      "store_name": "Rive Store",
+      "store_id": "123asdf",
+      "store_image": "logo.png",
+      "tagline": "Home of exotic dresses",
+      "address": "64",
+      "following": true,
+      "coupon_count": 10,
+
+      "sub_stores": [
+        {
+          "store_id": "david",
+          "store_name": "Rive Store",
+          "store_image": "logo.png",
+          "tagline": "Home of exotic dresses",
+          "address": "64",
+          "following": true,
+          "coupon_count": 10
+        }
+      ],
+      "coupons": [
+        {
+          "coupon_id": "1",
+          "store_id": "1",
+          "offer": 100.0,
+          "coupon_type": "Voucher",
+          "store_name": "rive store",
+          "text_only": true,
+          "item_url": "https://google.com",
+          "desc": "Get 20% off when you buy 3000 or more",
+          "currency": "usd",
+          "expiring_date": "2019-10-12T07:20:50.52Z"
+        },
+        {
+          "coupon_id": "2",
+          "store_id": "2",
+          "offer": 160.0,
+          "coupon_type": "PercentageOff",
+          "store_name": "foyer",
+          "text_only": false,
+          "desc": "Get 20% off when you buy 3000 or more",
+          "currency": "usd",
+          "expiring_date": "2019-10-12T07:20:50.52Z"
+        },
+        {
+          "coupon_id": "3",
+          "store_id": "3",
+          "offer": 550.0,
+          "text_only": false,
+          "coupon_type": "Voucher",
+          "store_name": "jutsu store",
+          "desc": "Get 20% off when you buy 3000 or more",
+          "currency": "naira",
+          "expiring_date": "2019-10-12T07:20:50.52Z"
+        },
+        {
+          "coupon_id": "4",
+          "store_id": "4",
+          "offer": 200.0,
+          "text_only": true,
+          "item_url":"https://google.com",
+          "text_coupon_code":"asdfe23535",
+          "coupon_type": "Voucher",
+          "store_name": "hima store",
+          "desc": "Get 20% off when you buy 3000 or more",
+          "currency": "usd",
+          "expiring_date": "2019-10-12T07:20:50.52Z"
+        },
+        {
+          "coupon_id": "5",
+          "store_id": "5",
+          "offer": 300.0,
+          "coupon_type": "PercentageOff",
+          "store_name": "left store",
+          "desc": "Get 20% off when you buy 3000 or more",
+          "currency": "usd",
+          "text_only": true,
+          "item_url":"https://google.com",
+          "text_coupon_code":"asdfe23535",
+          "expiring_date": "2019-10-12T07:20:50.52Z"
+        },
+        {
+          "coupon_id": "6",
+          "store_id": "6",
+          "store_image": "logo.png",
+
+          "offer": 570.0,
+          "text_only": false,
+          "coupon_type": "Voucher",
+          "store_name": "flare store",
+          "desc": "Get 20% off when you buy 3000 or more",
+          "currency": "euro",
+          "expiring_date": "2019-10-12T07:20:50.52Z"
+        },
+        {
+          "coupon_id": "7",
+          "store_id": "7",
+          "text_only": false,
+          "offer": 450.0,
+          "coupon_type": "PercentageOff",
+          "store_name": "vift store",
+          "desc": "Get 20% off when you buy 3000 or more",
+          "currency": "usd",
+          "expiring_date": "2019-10-12T07:20:50.52Z"
+        },
+        {
+          "coupon_id": "8",
+          "store_id": "8",
+          "text_only": true,
+          "item_url":"https://google.com",
+          "text_coupon_code":"asdfe23535",
+          "offer": 390.0,
+          "coupon_type": "Voucher",
+          "store_name": "left store",
+          "desc": "Get 20% off when you buy 3000 or more",
+          "currency": "usd",
+          "expiring_date": "2019-10-12T07:20:50.52Z"
+        }
+      ]
+    }
+  ]
+}

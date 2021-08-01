@@ -46,15 +46,15 @@ func NewStorage() (*Database, error) {
 func (s *Database) ResetPassword(ctx context.Context, email string) error {
 	return nil
 }
-func (s *Database)SearchCoupon(ctx context.Context,term string)(interface{},error){
+func (s *Database) SearchCoupon(ctx context.Context, term string) (interface{}, error) {
 	conn, err := s.dbPool.Acquire(ctx)
 	defer conn.Release()
 	if err != nil {
 		s.logger.Debug(err.Error())
 		return "", storage.ErrServerError
 	}
-c:=`coupon_id,store_id,store_id,store_name,tagline,theme_color,"desc",amount_off,percentage_off,currency_code,qr_code_url,extract(epoch from expired_at),is_text_coupon,text_coupon_code,text_coupon_weburl from coupons where tokens @@ $1`
-	rows,err:= conn.Query(ctx,c,term)
+	c := `coupon_id,store_id,store_id,store_name,tagline,theme_color,"desc",amount_off,percentage_off,currency_code,qr_code_url,extract(epoch from expired_at),is_text_coupon,text_coupon_code,text_coupon_weburl from coupons where tokens @@ $1`
+	rows, err := conn.Query(ctx, c, term)
 	if err != nil {
 		s.logger.Error(err.Error())
 		return nil, storage.ErrServerError
@@ -84,6 +84,8 @@ c:=`coupon_id,store_id,store_id,store_name,tagline,theme_color,"desc",amount_off
 		}
 		response.Coupons = append(response.Coupons, coupon)
 		response.LastCouponID = response.Coupons[len(response.Coupons)-1].CouponID
+	}
+	return &response, nil
 }
 func (s *Database) UserWithEmail(ctx context.Context, email string) (string, error) {
 	conn, err := s.dbPool.Acquire(ctx)
